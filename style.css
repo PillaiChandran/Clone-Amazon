@@ -1,0 +1,92 @@
+/* Header Styling */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: #0F1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.logo{   
+    height: 60px;
+     width: 130px;
+     display: flex;
+     align-items: center;
+}
+.logo img{
+    height: 50px;
+    width: 128px;
+}   
+.delivery{
+    display: block;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+
+}
+.location{
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+}
+.delivery{
+    position: absolute;
+    top:10px;
+    font-size: 13px;
+    margin-left: 17px;
+    
+    
+}
+.second-line{
+    display: flex;  
+    align-items: center;
+}
+ .country{
+ font-weight: 900%;
+ margin-left: 5px;
+ font-size: 16px;
+ 
+} 
+.search-bar input{
+    height: 40px;
+    width: 400px;
+    border-top-left-radius: 9%;
+    border-bottom-left-radius: 9%;
+    font-size:16px;
+}
+.search-bar i{
+   background-color: rgb(255, 196, 0);
+   color: black;
+   position: absolute;
+   border-radius: 10%;
+   padding: 14px;  
+}
+
+.user span{
+    font-size: 13px;
+}
+
+.user{
+    line-height: 2px;
+}
+.returns span{
+    font-size: 13px;
+}
+.returns{
+    line-height: 2px;
+}
+.cart{
+
+padding-top: 8px;
+
+}
