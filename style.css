@@ -1,6 +1,7 @@
 /* Header Styling */
 *{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 .navbar{
     display: flex;
@@ -68,8 +69,9 @@
    background-color: rgb(255, 196, 0);
    color: black;
    position: absolute;
-   border-radius: 10%;
-   padding: 14px;  
+   border-top-right-radius: 9%;
+   border-bottom-right-radius: 9%;
+   padding: 12px;  
 }
 
 .user span{
@@ -90,3 +92,60 @@
 padding-top: 8px;
 
 }
+ /* Main Styling */
+ .hero-image{
+    height: 300px; 
+    background-image: url("Samsung_PC_Hero_3000x1200._CB559905025_.jpg");
+    background-size: cover;
+ }
+ .box-layout{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(240, 234, 234);
+ }
+ .box1{
+    width: 400px;
+    font-size: larger;
+    font-weight: 600;  
+ }
+ .image1{
+    height: 300px;
+    width: 300px    ;
+    background-image: url("41cXb+2haJL._MCnd_AC_.jpg");
+    background-size: cover;
+ }
+ .box2{
+    width: 400px;
+    font-size: larger;
+    font-weight: 600;  
+ }
+ .image2{
+    height: 300px;
+    width: 300px    ;
+    background-image: url("PC_379x304._SY304_CB557896466_.jpg");
+    background-size: cover;
+ }
+ .box3{
+    width: 400px;
+    font-size: larger;
+    font-weight: 600; 
+ }
+ .image3{
+    height: 278px;
+    width: 300px    ;
+    background-image: url("PC_CC_758x6080.5x1._SY304_CB557940328_.jpg");
+    background-size: cover;
+ }
+ .box4{
+    width: 400px;
+    font-size: larger;
+    font-weight: 600;  
+ }
+ .image4{
+    height: 300px;
+    width: 300px    ;
+    background-image: url("MixerGrinder_379_304._SY304_CB558086743_.jpg");
+    background-size: cover;
+ }
