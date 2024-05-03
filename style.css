@@ -9,6 +9,7 @@
     color: white;
     align-items: center;
     justify-content: space-evenly;
+
     
 }
 .border{
@@ -148,4 +149,48 @@ padding-top: 8px;
     width: 300px    ;
     background-image: url("MixerGrinder_379_304._SY304_CB558086743_.jpg");
     background-size: cover;
+ }
+ /* Footer Styling */
+ 
+ .footer{
+    background-color:#203543 ;
+ }
+ .back-top{
+    margin-top: 10px;;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203543;
+    color: #FFFFFF;
+ }
+ .footlogo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203543;
+ }
+ .copyright-deatils{
+    padding-top: 50px;
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #203543;  
+    padding-bottom: 8px;
+ }
+ .copyright-deatils a{
+text-decoration: none;
+ color: white;
+ }
+ .copyright{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #101b22;  
+    align-items: center;
  }
